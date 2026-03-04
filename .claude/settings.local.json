@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(where ffmpeg)",
+      "Bash(where ffprobe)",
+      "Bash(curl -L -o \"C:/Users/rossm/ffmpeg-release.zip\" \"https://www.gyan.dev/ffmpeg/builds/ffmpeg-release-essentials.zip\")",
+      "Bash(unzip -o ffmpeg-release.zip -d ffmpeg-temp)",
+      "Bash(\"C:/Users/rossm/bin/ffmpeg.exe\" -version)",
+      "Bash(\"C:/Users/rossm/bin/ffprobe.exe\" -version)",
+      "Bash(npx skills add git@github.com:kepano/obsidian-skills.git)"
+    ]
+  }
+}

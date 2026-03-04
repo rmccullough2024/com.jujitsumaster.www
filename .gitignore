@@ -1,0 +1,12 @@
+# Obsidian vault
+Jujitsumaster/
+
+# Extracted video frames
+frames/
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Node
+node_modules/

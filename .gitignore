@@ -1,8 +1,8 @@
 # Obsidian vault
 Jujitsumaster/
 
-# Extracted video frames
-frames/
+# Source video (large files)
+source-video/
 
 # OS files
 Thumbs.db

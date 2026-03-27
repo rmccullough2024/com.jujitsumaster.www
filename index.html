@@ -3,12 +3,148 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Jujitsu Master</title>
+  <title>DanTor Ryu JuJitsu / MMA — Professor Daniel Torres</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-  <!-- CDN Libraries -->
+  <!-- 1. Loader -->
+  <div id="loader">
+    <div class="loader-brand">DANTOR RYU</div>
+    <div id="loader-bar"><div id="loader-fill"></div></div>
+    <div id="loader-percent">0%</div>
+  </div>
+
+  <!-- 2. Fixed Header -->
+  <header class="site-header">
+    <nav>
+      <a href="#" class="nav-logo">DANTOR RYU</a>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#programs">Programs</a>
+        <a href="#contact" class="nav-cta">Train With Us</a>
+      </div>
+    </nav>
+  </header>
+
+  <!-- 3. Hero -->
+  <section class="hero-standalone" id="hero">
+    <div class="hero-content">
+      <span class="section-label">EST. 50+ YEARS OF MASTERY</span>
+      <h1 class="hero-heading">
+        <span>THE</span>
+        <span>ART</span>
+        <span>OF</span>
+        <span>DEFENSE</span>
+      </h1>
+      <p class="hero-tagline">DanTor Ryu JuJitsu / MMA — Founded by Professor Daniel Torres, 10th Degree Judan Red Belt</p>
+    </div>
+    <div class="scroll-indicator">
+      <span>Scroll to explore</span>
+      <svg width="20" height="30" viewBox="0 0 20 30" fill="none">
+        <path d="M10 5 L10 25 M5 20 L10 25 L15 20" stroke="currentColor" stroke-width="1.5"/>
+      </svg>
+    </div>
+  </section>
+
+  <!-- 4. Canvas -->
+  <div class="canvas-wrap" id="canvas-wrap">
+    <canvas id="canvas"></canvas>
+  </div>
+
+  <!-- 5. Dark Overlay -->
+  <div id="dark-overlay"></div>
+
+  <!-- 6. Marquees -->
+  <div class="marquee-wrap" id="marquee-1" data-scroll-speed="-30" data-enter="15" data-leave="45">
+    <div class="marquee-text">DISCIPLINE — HONOR — STRENGTH — TRADITION — DISCIPLINE — HONOR — STRENGTH — TRADITION —&nbsp;</div>
+  </div>
+
+  <div class="marquee-wrap" id="marquee-2" data-scroll-speed="25" data-enter="60" data-leave="85">
+    <div class="marquee-text">DANTOR RYU — JUJITSU — MMA — SELF DEFENSE — DANTOR RYU — JUJITSU — MMA — SELF DEFENSE —&nbsp;</div>
+  </div>
+
+  <!-- 7. Scroll Container -->
+  <div id="scroll-container">
+
+    <!-- Section 1: The Founder -->
+    <section class="scroll-section section-content align-left"
+             data-enter="18" data-leave="32" data-animation="slide-left">
+      <div class="section-inner">
+        <span class="section-label">001 / The Founder</span>
+        <h2 class="section-heading">Professor<br>Daniel Torres</h2>
+        <p class="section-body">Over 50 years of martial arts mastery. A 10th-degree Judan Red Belt in JuJitsu — the highest honor in the art. Strategic planner, public speaker, mediator, judge, and professional MMA referee.</p>
+      </div>
+    </section>
+
+    <!-- Section 2: The System -->
+    <section class="scroll-section section-content align-right"
+             data-enter="30" data-leave="44" data-animation="fade-up">
+      <div class="section-inner">
+        <span class="section-label">002 / The System</span>
+        <h2 class="section-heading">DanTor Ryu<br>JuJitsu / MMA</h2>
+        <p class="section-body">Built upon traditional JuJitsu — the mother art from which Judo and Aikido originated. A complete self-defense methodology and open-hand fighting system integrating modern MMA techniques for real-world application.</p>
+      </div>
+    </section>
+
+    <!-- Section 3: The Training -->
+    <section class="scroll-section section-content align-left"
+             data-enter="42" data-leave="56" data-animation="clip-reveal">
+      <div class="section-inner">
+        <span class="section-label">003 / The Training</span>
+        <h2 class="section-heading">For Every<br>Warrior</h2>
+        <p class="section-body">Programs designed for children, men, and women of all skill levels. From beginners seeking confidence to advanced practitioners refining their craft — every student finds their path on the mat.</p>
+      </div>
+    </section>
+
+    <!-- Section 4: Stats -->
+    <section class="scroll-section section-stats"
+             data-enter="54" data-leave="70" data-animation="stagger-up">
+      <div class="stats-grid">
+        <div class="stat">
+          <span class="stat-number" data-value="50" data-decimals="0">0</span>
+          <span class="stat-suffix">+</span>
+          <span class="stat-label">Years of Training</span>
+        </div>
+        <div class="stat">
+          <span class="stat-number" data-value="10" data-decimals="0">0</span>
+          <span class="stat-suffix">th</span>
+          <span class="stat-label">Degree Red Belt</span>
+        </div>
+        <div class="stat">
+          <span class="stat-number" data-value="3" data-decimals="0">0</span>
+          <span class="stat-suffix">x</span>
+          <span class="stat-label">Weekly Classes</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 5: Global Recognition -->
+    <section class="scroll-section section-content align-right"
+             data-enter="68" data-leave="82" data-animation="rotate-in">
+      <div class="section-inner">
+        <span class="section-label">005 / Global Reach</span>
+        <h2 class="section-heading">International<br>Recognition</h2>
+        <p class="section-body">A respected figure in the global jujitsu community, providing seminars and coaching at academies worldwide. Traditional techniques integrated with modern fighting strategies.</p>
+      </div>
+    </section>
+
+    <!-- Section 6: CTA -->
+    <section class="scroll-section section-content section-cta align-left"
+             data-enter="88" data-leave="100" data-animation="scale-up" data-persist="true">
+      <div class="section-inner">
+        <span class="section-label">006 / Join Us</span>
+        <h2 class="section-heading">Begin Your<br>Journey</h2>
+        <p class="section-body">1600 Lockwood Blvd, Oviedo, FL<br>Monday, Tuesday &amp; Thursday — 8:00 PM to 9:30 PM</p>
+        <a href="#contact" class="cta-button">Start Training Today</a>
+      </div>
+    </section>
+
+  </div>
+
   <script src="https://cdn.jsdelivr.net/npm/lenis@1/dist/lenis.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/gsap@3/dist/gsap.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/gsap@3/dist/ScrollTrigger.min.js"></script>

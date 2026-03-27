@@ -7,7 +7,13 @@
       "Bash(unzip -o ffmpeg-release.zip -d ffmpeg-temp)",
       "Bash(\"C:/Users/rossm/bin/ffmpeg.exe\" -version)",
       "Bash(\"C:/Users/rossm/bin/ffprobe.exe\" -version)",
-      "Bash(npx skills add git@github.com:kepano/obsidian-skills.git)"
+      "Bash(npx skills add git@github.com:kepano/obsidian-skills.git)",
+      "Bash(where az.cmd)",
+      "Bash(where az:*)",
+      "Read(//c/Program Files/Microsoft SDKs/Azure/**)",
+      "Read(//c/Program Files \\(x86\\)/Microsoft SDKs/Azure/**)",
+      "Bash(gh auth:*)",
+      "Bash(gh api:*)"
     ]
   }
 }
